@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		853B56DB2605CA1A007A0A50 /* OrgStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853B56DA2605CA1A007A0A50 /* OrgStruct.swift */; };
 		85A332142600A1C1004BB3A6 /* File_SelectorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A332132600A1C1004BB3A6 /* File_SelectorApp.swift */; };
 		85A332162600A1C1004BB3A6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85A332152600A1C1004BB3A6 /* ContentView.swift */; };
 		85A332182600A1C2004BB3A6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85A332172600A1C2004BB3A6 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		853B56DA2605CA1A007A0A50 /* OrgStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrgStruct.swift; sourceTree = "<group>"; };
 		85A332102600A1C1004BB3A6 /* File Selector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "File Selector.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		85A332132600A1C1004BB3A6 /* File_SelectorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File_SelectorApp.swift; sourceTree = "<group>"; };
 		85A332152600A1C1004BB3A6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -33,6 +35,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		853B56D92605CA06007A0A50 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				853B56DA2605CA1A007A0A50 /* OrgStruct.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		85A332072600A1C1004BB3A6 = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +62,7 @@
 		85A332122600A1C1004BB3A6 /* File Selector */ = {
 			isa = PBXGroup;
 			children = (
+				853B56D92605CA06007A0A50 /* Model */,
 				85A332132600A1C1004BB3A6 /* File_SelectorApp.swift */,
 				85A332152600A1C1004BB3A6 /* ContentView.swift */,
 				85A332172600A1C2004BB3A6 /* Assets.xcassets */,
@@ -140,6 +151,7 @@
 			files = (
 				85A332162600A1C1004BB3A6 /* ContentView.swift in Sources */,
 				85A332142600A1C1004BB3A6 /* File_SelectorApp.swift in Sources */,
+				853B56DB2605CA1A007A0A50 /* OrgStruct.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
